@@ -1,0 +1,113 @@
+Iniciando programa.
+Creando threads.
+23565 - Semaforo abierto con exito.
+Iniciando thread 1
+Iniciando iteracion 1
+23566 - Semaforo abierto con exito.
+	23565 - (!) Recurso tomado.
+Iniciando iteracion 1
+	23566 - (!) Recurso tomado.
+Iniciando thread 2
+Iniciando thread 3
+23567 - Semaforo abierto con exito.
+Iniciando thread 4
+Iniciando thread 5
+Esperando threads.
+23568 - Semaforo abierto con exito.
+23569 - Semaforo abierto con exito.
+	23566 - Holaaa, ya use el recurso.
+	23566 - Ya devolvi el recurso :)
+Iniciando iteracion 2
+	23566 - (!) Recurso tomado.
+	23565 - Holaaa, ya use el recurso.
+	23565 - Ya devolvi el recurso :)
+Iniciando iteracion 2
+	23565 - (!) Recurso tomado.
+	23566 - Holaaa, ya use el recurso.
+	23566 - Ya devolvi el recurso :)
+Iniciando iteracion 3
+	23566 - (!) Recurso tomado.
+	23565 - Holaaa, ya use el recurso.
+	23565 - Ya devolvi el recurso :)
+Iniciando iteracion 3
+	23565 - (!) Recurso tomado.
+	23566 - Holaaa, ya use el recurso.
+	23566 - Ya devolvi el recurso :)
+Iniciando iteracion 4
+	23565 - Holaaa, ya use el recurso.
+Iniciando iteracion 1
+	23568 - (!) Recurso tomado.
+	23565 - Ya devolvi el recurso :)
+	23566 - (!) Recurso tomado.
+	23566 - Holaaa, ya use el recurso.
+	23566 - Ya devolvi el recurso :)
+Iniciando iteracion 5
+	23566 - (!) Recurso tomado.
+	23568 - Holaaa, ya use el recurso.
+	23568 - Ya devolvi el recurso :)
+Iniciando iteracion 2
+	23568 - (!) Recurso tomado.
+	23566 - Holaaa, ya use el recurso.
+	23566 - Ya devolvi el recurso :)
+Iniciando iteracion 4
+	23565 - (!) Recurso tomado.
+	23568 - Holaaa, ya use el recurso.
+	23568 - Ya devolvi el recurso :)
+Iniciando iteracion 3
+	23568 - (!) Recurso tomado.
+	23565 - Holaaa, ya use el recurso.
+	23565 - Ya devolvi el recurso :)
+Iniciando iteracion 5
+	23565 - (!) Recurso tomado.
+	23568 - Holaaa, ya use el recurso.
+	23568 - Ya devolvi el recurso :)
+Iniciando iteracion 4
+	23568 - (!) Recurso tomado.
+	23568 - Holaaa, ya use el recurso.
+	23568 - Ya devolvi el recurso :)
+Iniciando iteracion 5
+	23568 - (!) Recurso tomado.
+	23565 - Holaaa, ya use el recurso.
+	23565 - Ya devolvi el recurso :)
+Iniciando iteracion 1
+	23567 - (!) Recurso tomado.
+	23567 - Holaaa, ya use el recurso.
+	23567 - Ya devolvi el recurso :)
+Iniciando iteracion 2
+	23567 - (!) Recurso tomado.
+	23568 - Holaaa, ya use el recurso.
+	23568 - Ya devolvi el recurso :)
+Iniciando iteracion 1
+	23569 - (!) Recurso tomado.
+	23567 - Holaaa, ya use el recurso.
+	23567 - Ya devolvi el recurso :)
+Iniciando iteracion 3
+	23567 - (!) Recurso tomado.
+	23569 - Holaaa, ya use el recurso.
+	23569 - Ya devolvi el recurso :)
+Iniciando iteracion 2
+	23569 - (!) Recurso tomado.
+	23567 - Holaaa, ya use el recurso.
+	23567 - Ya devolvi el recurso :)
+Iniciando iteracion 4
+	23567 - (!) Recurso tomado.
+	23569 - Holaaa, ya use el recurso.
+	23569 - Ya devolvi el recurso :)
+Iniciando iteracion 3
+	23569 - (!) Recurso tomado.
+	23567 - Holaaa, ya use el recurso.
+	23567 - Ya devolvi el recurso :)
+Iniciando iteracion 5
+	23567 - (!) Recurso tomado.
+	23569 - Holaaa, ya use el recurso.
+	23569 - Ya devolvi el recurso :)
+Iniciando iteracion 4
+	23569 - (!) Recurso tomado.
+	23567 - Holaaa, ya use el recurso.
+	23567 - Ya devolvi el recurso :)
+	23569 - Holaaa, ya use el recurso.
+	23569 - Ya devolvi el recurso :)
+Iniciando iteracion 5
+	23569 - (!) Recurso tomado.
+	23569 - Holaaa, ya use el recurso.
+	23569 - Ya devolvi el recurso :)
