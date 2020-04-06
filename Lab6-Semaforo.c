@@ -1,26 +1,37 @@
-#include <stdio.h> 
-#include <pthread.h> 
-#include <semaphore.h> 
-#include <unistd.h> 
+# include <stdio.h> 
+# include <pthread.h>
+# include <semaphore.h> 
+# include <unistd.h>
+# include <sys/syscall.h>
 
 #define nthreads 5
 #define nciclos 5
 
 sem_t mutex;
+int available_resources = 1;
 
 void* doNothing (void* arg) {
 
     int j;
-    printf("%d - Semaforo abierto con exito.\n", (int)pthread_self());
+    pid_t tid;
+    printf("%d - Semaforo abierto con exito.\n", tid);
 
     for (j = 0; j < nciclos; j++) {
         sem_wait(&mutex);
-        printf("Iniciando iteracion %d (%d)\n", j + 1, (int)pthread_self());
-        printf("%d - (!) Recurso tomado.\n", (int)pthread_self());
-        sleep(2);
-        printf("%d - Holaaa, ya use el recurso.\n", (int)pthread_self());
+
+        printf("\tIniciando iteracion %d\n", j + 1);
+        printf("\t%d - (!) Recurso tomado.\n", tid);
+        available_resources--;
+
+        int num = rand() % 3 + 1;
+        sleep(num);
+
+        printf("\t%d - Holaaa, ya use el recurso.\n", tid);
+        available_resources++;
+
         sem_post(&mutex);
-        printf("%d - Ya devolvi el recurso :)\n", (int)pthread_self());
+
+        printf("\t%d - Ya devolvi el recurso :)\n", tid);
     }
 }
 
@@ -30,7 +41,7 @@ int main() {
     void * retvals[nthreads];
     int i;
 
-    sem_init(&mutex, 1, 1);
+    sem_init(&mutex, 0, 1);
 
     printf("Creando threads.\n");
     for (i = 0; i < nthreads; i++) {
