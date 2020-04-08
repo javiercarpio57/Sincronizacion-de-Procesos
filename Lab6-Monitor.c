@@ -17,29 +17,33 @@ struct Monitor {
     int available_resources;
 };
 
+struct condition_variable {
+    sem_t semaforo;
+    int count;
+};
+
 struct Monitor monitor;
-sem_t x_sem;
-int x_count = 0;
+struct condition_variable x;
 
 // x.wait()
 void wait () {
-    x_count++;
+    x.count++;
 
     if (monitor.next_count > 0)
         sem_post(&monitor.next);
     else
         sem_post(&monitor.mutex);
 
-    int status = sem_wait(&x_sem);
+    int status = sem_wait(&(x.semaforo));
     printf("STATUS: %d\n", status);
-    x_count--;
+    x.count--;
 }
 
 // x.signal()
 void signal () {
-    if (x_count > 0) {
+    if (x.count > 0) {
         monitor.next_count++;
-        sem_post (&x_sem);
+        sem_post (&(x.semaforo));
         sem_wait (&monitor.next);
         monitor.next_count--;
     }
@@ -49,7 +53,7 @@ int initialize_monitor () {
     int return_value = 1;
 
     monitor.available_resources = maxRecursos;
-    sem_init(&x_sem, 0, 1);
+    sem_init(&(x.semaforo), 0, 0);
 
     if ((sem_init(&(monitor.mutex), 0, 1) == 0) && (sem_init(&(monitor.next), 0, 0) == 0))
         return_value = 0;
@@ -59,7 +63,7 @@ int initialize_monitor () {
     return return_value;
 }
 
-void* decrease_count (int count) {
+int decrease_count (int count) {
     pid_t tid = syscall(SYS_gettid);
 
     printf("\t(%d) Iniciando decrease_count.\n", tid);
@@ -67,13 +71,11 @@ void* decrease_count (int count) {
     sem_wait(&(monitor.mutex));
     printf("\tMutex adquirido, entrando a monitor.\n");
 
-    if (monitor.available_resources >= count) {
-        printf("\tRecursos sufiecientes, consumiendo...\n");
-
-        printf("%d - (!) Recurso tomado.\n", tid);
+    if (monitor.available_resources < count) {
+        return -1;
+    } else {
         monitor.available_resources -= count;
-
-        sleep(2);
+        return 0;
     }
 
     if (monitor.next_count > 0)

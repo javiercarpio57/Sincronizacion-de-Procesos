@@ -1,2 +1,0 @@
-g++ ostechnix.cpp -o ostechnix
-./ostechnix
