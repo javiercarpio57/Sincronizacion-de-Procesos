@@ -11,7 +11,6 @@
 
 sem_t mutex;
 int available_resources = 1;
-char txtContent[2048];
 FILE * fp;
 
 void* doNothing (void* arg) {
@@ -50,10 +49,6 @@ void* doNothing (void* arg) {
     }
 }
 
-void* writeFile (char message[]) {
-    fprintf(fp, "%s", message);
-}
-
 int main() {
     fp = fopen("SemaforoBitacora.txt", "w");
 
@@ -81,8 +76,6 @@ int main() {
             fprintf (stderr, "Error: No se puede hacer join al thread #%d\n", i);
         }
     }
-
-    writeFile(txtContent);
 
     sem_destroy(&mutex);
     fclose(fp);

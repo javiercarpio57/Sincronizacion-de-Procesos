@@ -1,0 +1,622 @@
+Iniciando programa.
+Creando threads.
+Iniciando thread 23735
+	(23735) Iniciando iteracion #1.
+	(23735) Se consumiran 4 recursos.
+Entrando a decrease_count (23735).
+	23735 - Mutex adquirido, entrando al monitor.
+	23735 - Recursos suficientes disponibles (4/20), consumiendo...
+	23735 - (!) Recurso tomado.
+Saliendo de decrease_count (23735).
+Entrando a increase_count (23735).
+23735 - Avisando a la mara (16).
+	23735 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23735) Iniciando iteracion #2.
+	(23735) Se consumiran 7 recursos.
+Entrando a decrease_count (23735).
+	23735 - Mutex adquirido, entrando al monitor.
+	23735 - Recursos suficientes disponibles (7/20), consumiendo...
+	23735 - (!) Recurso tomado.
+Saliendo de decrease_count (23735).
+Entrando a increase_count (23735).
+23735 - Avisando a la mara (13).
+	23735 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23735) Iniciando iteracion #3.
+	(23735) Se consumiran 18 recursos.
+Entrando a decrease_count (23735).
+	23735 - Mutex adquirido, entrando al monitor.
+	23735 - Recursos suficientes disponibles (18/20), consumiendo...
+	23735 - (!) Recurso tomado.
+Saliendo de decrease_count (23735).
+Entrando a increase_count (23735).
+23735 - Avisando a la mara (2).
+	23735 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23735) Iniciando iteracion #4.
+	(23735) Se consumiran 16 recursos.
+Entrando a decrease_count (23735).
+	23735 - Mutex adquirido, entrando al monitor.
+	23735 - Recursos suficientes disponibles (16/20), consumiendo...
+	23735 - (!) Recurso tomado.
+Saliendo de decrease_count (23735).
+Entrando a increase_count (23735).
+23735 - Avisando a la mara (4).
+	23735 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23735) Iniciando iteracion #5.
+	(23735) Se consumiran 14 recursos.
+Entrando a decrease_count (23735).
+	23735 - Mutex adquirido, entrando al monitor.
+	23735 - Recursos suficientes disponibles (14/20), consumiendo...
+	23735 - (!) Recurso tomado.
+Saliendo de decrease_count (23735).
+Entrando a increase_count (23735).
+23735 - Avisando a la mara (6).
+	23735 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+Iniciando thread 23737
+	(23737) Iniciando iteracion #1.
+	(23737) Se consumiran 16 recursos.
+Entrando a decrease_count (23737).
+	23737 - Mutex adquirido, entrando al monitor.
+	23737 - Recursos suficientes disponibles (16/20), consumiendo...
+	23737 - (!) Recurso tomado.
+Saliendo de decrease_count (23737).
+Entrando a increase_count (23737).
+23737 - Avisando a la mara (4).
+	23737 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23737) Iniciando iteracion #2.
+	(23737) Se consumiran 7 recursos.
+Entrando a decrease_count (23737).
+	23737 - Mutex adquirido, entrando al monitor.
+	23737 - Recursos suficientes disponibles (7/20), consumiendo...
+	23737 - (!) Recurso tomado.
+Saliendo de decrease_count (23737).
+Entrando a increase_count (23737).
+23737 - Avisando a la mara (13).
+	23737 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23737) Iniciando iteracion #3.
+	(23737) Se consumiran 13 recursos.
+Entrando a decrease_count (23737).
+	23737 - Mutex adquirido, entrando al monitor.
+	23737 - Recursos suficientes disponibles (13/20), consumiendo...
+	23737 - (!) Recurso tomado.
+Saliendo de decrease_count (23737).
+Entrando a increase_count (23737).
+23737 - Avisando a la mara (7).
+	23737 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23737) Iniciando iteracion #4.
+	(23737) Se consumiran 10 recursos.
+Entrando a decrease_count (23737).
+	23737 - Mutex adquirido, entrando al monitor.
+	23737 - Recursos suficientes disponibles (10/20), consumiendo...
+	23737 - (!) Recurso tomado.
+Saliendo de decrease_count (23737).
+Entrando a increase_count (23737).
+23737 - Avisando a la mara (10).
+	23737 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23737) Iniciando iteracion #5.
+	(23737) Se consumiran 2 recursos.
+Iniciando thread 23738
+Entrando a decrease_count (23737).
+	(23738) Iniciando iteracion #1.
+	23737 - Mutex adquirido, entrando al monitor.
+	23737 - Recursos suficientes disponibles (2/20), consumiendo...
+	23737 - (!) Recurso tomado.
+Saliendo de decrease_count (23737).
+Entrando a increase_count (23737).
+23737 - Avisando a la mara (18).
+	23737 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+Iniciando thread 23739
+	(23739) Iniciando iteracion #1.
+	(23739) Se consumiran 8 recursos.
+Entrando a decrease_count (23739).
+	23739 - Mutex adquirido, entrando al monitor.
+	23739 - Recursos suficientes disponibles (8/20), consumiendo...
+	23739 - (!) Recurso tomado.
+Saliendo de decrease_count (23739).
+Entrando a increase_count (23739).
+23739 - Avisando a la mara (12).
+	23739 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23739) Iniciando iteracion #2.
+	(23739) Se consumiran 11 recursos.
+Entrando a decrease_count (23739).
+	23739 - Mutex adquirido, entrando al monitor.
+	23739 - Recursos suficientes disponibles (11/20), consumiendo...
+	23739 - (!) Recurso tomado.
+Saliendo de decrease_count (23739).
+Entrando a increase_count (23739).
+23739 - Avisando a la mara (9).
+	23739 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23739) Iniciando iteracion #3.
+	(23739) Se consumiran 20 recursos.
+Entrando a decrease_count (23739).
+	23739 - Mutex adquirido, entrando al monitor.
+	23739 - Recursos suficientes disponibles (20/20), consumiendo...
+	23739 - (!) Recurso tomado.
+Saliendo de decrease_count (23739).
+Entrando a increase_count (23739).
+23739 - Avisando a la mara (0).
+	23739 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23739) Iniciando iteracion #4.
+	(23739) Se consumiran 4 recursos.
+Entrando a decrease_count (23739).
+	23739 - Mutex adquirido, entrando al monitor.
+	23739 - Recursos suficientes disponibles (4/20), consumiendo...
+	23739 - (!) Recurso tomado.
+Saliendo de decrease_count (23739).
+Entrando a increase_count (23739).
+23739 - Avisando a la mara (16).
+	23739 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23739) Iniciando iteracion #5.
+	(23739) Se consumiran 7 recursos.
+Entrando a decrease_count (23739).
+	23739 - Mutex adquirido, entrando al monitor.
+	23739 - Recursos suficientes disponibles (7/20), consumiendo...
+	23739 - (!) Recurso tomado.
+Saliendo de decrease_count (23739).
+Entrando a increase_count (23739).
+23739 - Avisando a la mara (13).
+	23739 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+Iniciando thread 23740
+	(23740) Iniciando iteracion #1.
+	(23740) Se consumiran 1 recursos.
+Entrando a decrease_count (23740).
+	23740 - Mutex adquirido, entrando al monitor.
+	23740 - Recursos suficientes disponibles (1/20), consumiendo...
+	23740 - (!) Recurso tomado.
+Saliendo de decrease_count (23740).
+Entrando a increase_count (23740).
+23740 - Avisando a la mara (19).
+	23740 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23740) Iniciando iteracion #2.
+	(23740) Se consumiran 7 recursos.
+Entrando a decrease_count (23740).
+	23740 - Mutex adquirido, entrando al monitor.
+	23740 - Recursos suficientes disponibles (7/20), consumiendo...
+	23740 - (!) Recurso tomado.
+Saliendo de decrease_count (23740).
+Entrando a increase_count (23740).
+23740 - Avisando a la mara (13).
+	23740 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23740) Iniciando iteracion #3.
+	(23740) Se consumiran 13 recursos.
+Entrando a decrease_count (23740).
+	23740 - Mutex adquirido, entrando al monitor.
+	23740 - Recursos suficientes disponibles (13/20), consumiendo...
+	23740 - (!) Recurso tomado.
+Saliendo de decrease_count (23740).
+Entrando a increase_count (23740).
+23740 - Avisando a la mara (7).
+	23740 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23740) Iniciando iteracion #4.
+	(23740) Se consumiran 17 recursos.
+Entrando a decrease_count (23740).
+	23740 - Mutex adquirido, entrando al monitor.
+	23740 - Recursos suficientes disponibles (17/20), consumiendo...
+	23740 - (!) Recurso tomado.
+Saliendo de decrease_count (23740).
+Entrando a increase_count (23740).
+23740 - Avisando a la mara (3).
+	23740 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23740) Iniciando iteracion #5.
+	(23740) Se consumiran 12 recursos.
+Entrando a decrease_count (23740).
+	23740 - Mutex adquirido, entrando al monitor.
+	23740 - Recursos suficientes disponibles (12/20), consumiendo...
+	23740 - (!) Recurso tomado.
+Saliendo de decrease_count (23740).
+Iniciando thread 23741
+Entrando a increase_count (23740).
+23740 - Avisando a la mara (8).
+	23740 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23741) Iniciando iteracion #1.
+	(23741) Se consumiran 9 recursos.
+Entrando a decrease_count (23741).
+	23741 - Mutex adquirido, entrando al monitor.
+	23741 - Recursos suficientes disponibles (9/20), consumiendo...
+	23741 - (!) Recurso tomado.
+Saliendo de decrease_count (23741).
+Entrando a increase_count (23741).
+23741 - Avisando a la mara (11).
+	23741 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23741) Iniciando iteracion #2.
+	(23741) Se consumiran 8 recursos.
+Entrando a decrease_count (23741).
+	23741 - Mutex adquirido, entrando al monitor.
+	23741 - Recursos suficientes disponibles (8/20), consumiendo...
+	23741 - (!) Recurso tomado.
+Saliendo de decrease_count (23741).
+Entrando a increase_count (23741).
+23741 - Avisando a la mara (12).
+	23741 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23741) Iniciando iteracion #3.
+	(23741) Se consumiran 10 recursos.
+Entrando a decrease_count (23741).
+	23741 - Mutex adquirido, entrando al monitor.
+	23741 - Recursos suficientes disponibles (10/20), consumiendo...
+	23741 - (!) Recurso tomado.
+Saliendo de decrease_count (23741).
+Entrando a increase_count (23741).
+23741 - Avisando a la mara (10).
+	23741 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23741) Iniciando iteracion #4.
+	(23741) Se consumiran 3 recursos.
+Entrando a decrease_count (23741).
+	23741 - Mutex adquirido, entrando al monitor.
+	23741 - Recursos suficientes disponibles (3/20), consumiendo...
+	23741 - (!) Recurso tomado.
+Saliendo de decrease_count (23741).
+Entrando a increase_count (23741).
+23741 - Avisando a la mara (17).
+	23741 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23741) Iniciando iteracion #5.
+	(23741) Se consumiran 11 recursos.
+Entrando a decrease_count (23741).
+	23741 - Mutex adquirido, entrando al monitor.
+	23741 - Recursos suficientes disponibles (11/20), consumiendo...
+	23741 - (!) Recurso tomado.
+Saliendo de decrease_count (23741).
+Entrando a increase_count (23741).
+23741 - Avisando a la mara (9).
+	23741 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+Iniciando thread 23742
+	(23742) Iniciando iteracion #1.
+	(23742) Se consumiran 3 recursos.
+Entrando a decrease_count (23742).
+	23742 - Mutex adquirido, entrando al monitor.
+	23742 - Recursos suficientes disponibles (3/20), consumiendo...
+	23742 - (!) Recurso tomado.
+Saliendo de decrease_count (23742).
+Entrando a increase_count (23742).
+23742 - Avisando a la mara (17).
+	23742 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23742) Iniciando iteracion #2.
+	(23742) Se consumiran 4 recursos.
+Entrando a decrease_count (23742).
+	23742 - Mutex adquirido, entrando al monitor.
+	23742 - Recursos suficientes disponibles (4/20), consumiendo...
+	23742 - (!) Recurso tomado.
+Saliendo de decrease_count (23742).
+Entrando a increase_count (23742).
+23742 - Avisando a la mara (16).
+	23742 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23742) Iniciando iteracion #3.
+	(23742) Se consumiran 8 recursos.
+Entrando a decrease_count (23742).
+	23742 - Mutex adquirido, entrando al monitor.
+	23742 - Recursos suficientes disponibles (8/20), consumiendo...
+	23742 - (!) Recurso tomado.
+Saliendo de decrease_count (23742).
+Entrando a increase_count (23742).
+23742 - Avisando a la mara (12).
+	23742 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23742) Iniciando iteracion #4.
+	(23742) Se consumiran 16 recursos.
+Entrando a decrease_count (23742).
+	23742 - Mutex adquirido, entrando al monitor.
+	23742 - Recursos suficientes disponibles (16/20), consumiendo...
+	23742 - (!) Recurso tomado.
+Saliendo de decrease_count (23742).
+Entrando a increase_count (23742).
+23742 - Avisando a la mara (4).
+	23742 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23742) Iniciando iteracion #5.
+	(23742) Se consumiran 10 recursos.
+Entrando a decrease_count (23742).
+	23742 - Mutex adquirido, entrando al monitor.
+	23742 - Recursos suficientes disponibles (10/20), consumiendo...
+	23742 - (!) Recurso tomado.
+Saliendo de decrease_count (23742).
+Entrando a increase_count (23742).
+23742 - Avisando a la mara (10).
+	23742 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+Iniciando thread 23743
+	(23743) Iniciando iteracion #1.
+	(23743) Se consumiran 3 recursos.
+Entrando a decrease_count (23743).
+	23743 - Mutex adquirido, entrando al monitor.
+	23743 - Recursos suficientes disponibles (3/20), consumiendo...
+	23743 - (!) Recurso tomado.
+Saliendo de decrease_count (23743).
+Entrando a increase_count (23743).
+23743 - Avisando a la mara (17).
+Iniciando thread 23736
+	(23736) Iniciando iteracion #1.
+	(23736) Se consumiran 3 recursos.
+Entrando a decrease_count (23736).
+	23743 - Recurso usado.
+Esperando threads.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23743) Iniciando iteracion #2.
+	(23743) Se consumiran 19 recursos.
+Entrando a decrease_count (23743).
+	23743 - Mutex adquirido, entrando al monitor.
+	23743 - Recursos suficientes disponibles (19/20), consumiendo...
+	23743 - (!) Recurso tomado.
+Iniciando thread 23744
+	(23744) Iniciando iteracion #1.
+	(23744) Se consumiran 10 recursos.
+Entrando a decrease_count (23744).
+	23744 - Mutex adquirido, entrando al monitor.
+Saliendo de decrease_count (23743).
+	Esperando por 10 recursos - 23744
+Entrando a increase_count (23743).
+23743 - Avisando a la mara (1).
+	23743 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23743) Iniciando iteracion #3.
+	23744 - Recursos suficientes disponibles (10/20), consumiendo...
+	(23743) Se consumiran 8 recursos.
+	23744 - (!) Recurso tomado.
+Entrando a decrease_count (23743).
+	23743 - Mutex adquirido, entrando al monitor.
+	23743 - Recursos suficientes disponibles (8/10), consumiendo...
+	23743 - (!) Recurso tomado.
+Saliendo de decrease_count (23743).
+Entrando a increase_count (23743).
+23743 - Avisando a la mara (2).
+	23743 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 10.
+	(23743) Iniciando iteracion #4.
+	(23743) Se consumiran 14 recursos.
+Entrando a decrease_count (23743).
+	23743 - Mutex adquirido, entrando al monitor.
+Saliendo de decrease_count (23744).
+	Esperando por 14 recursos - 23743
+Entrando a increase_count (23744).
+23744 - Avisando a la mara (10).
+	23744 - Recurso usado.
+Saliendo de increase_count.
+	23743 - Recursos suficientes disponibles (14/20), consumiendo...
+Recursos disponibles: 20.
+	23743 - (!) Recurso tomado.
+	(23744) Iniciando iteracion #2.
+	(23744) Se consumiran 17 recursos.
+Entrando a decrease_count (23744).
+Saliendo de decrease_count (23743).
+	23744 - Mutex adquirido, entrando al monitor.
+Entrando a increase_count (23743).
+	Esperando por 17 recursos - 23744
+23743 - Avisando a la mara (6).
+	23743 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23743) Iniciando iteracion #5.
+	(23743) Se consumiran 12 recursos.
+Entrando a decrease_count (23743).
+	23736 - Mutex adquirido, entrando al monitor.
+	23736 - Recursos suficientes disponibles (3/20), consumiendo...
+	23736 - (!) Recurso tomado.
+	23744 - Recursos suficientes disponibles (17/17), consumiendo...
+	23744 - (!) Recurso tomado.
+Saliendo de decrease_count (23744).
+Entrando a increase_count (23744).
+23744 - Avisando a la mara (0).
+Saliendo de decrease_count (23736).
+	23744 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 17.
+	(23744) Iniciando iteracion #3.
+Entrando a increase_count (23736).
+	(23744) Se consumiran 3 recursos.
+	23743 - Mutex adquirido, entrando al monitor.
+Entrando a decrease_count (23744).
+	23743 - Recursos suficientes disponibles (12/17), consumiendo...
+	23743 - (!) Recurso tomado.
+	(23738) Se consumiran 3 recursos.
+Saliendo de decrease_count (23743).
+Entrando a increase_count (23743).
+23743 - Avisando a la mara (5).
+Entrando a decrease_count (23738).
+	23743 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 17.
+23736 - Avisando a la mara (17).
+	23736 - Recurso usado.
+	23744 - Mutex adquirido, entrando al monitor.
+	23744 - Recursos suficientes disponibles (3/20), consumiendo...
+	23744 - (!) Recurso tomado.
+Saliendo de decrease_count (23744).
+Entrando a increase_count (23744).
+23744 - Avisando a la mara (17).
+	23744 - Recurso usado.
+Saliendo de increase_count.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23744) Iniciando iteracion #4.
+	23738 - Mutex adquirido, entrando al monitor.
+	23738 - Recursos suficientes disponibles (3/20), consumiendo...
+	(23744) Se consumiran 10 recursos.
+	23738 - (!) Recurso tomado.
+Recursos disponibles: 20.
+Saliendo de decrease_count (23738).
+	(23736) Iniciando iteracion #2.
+Entrando a increase_count (23738).
+	(23736) Se consumiran 14 recursos.
+23738 - Avisando a la mara (17).
+Entrando a decrease_count (23744).
+	23738 - Recurso usado.
+Entrando a decrease_count (23736).
+	23736 - Mutex adquirido, entrando al monitor.
+	23736 - Recursos suficientes disponibles (14/20), consumiendo...
+	23736 - (!) Recurso tomado.
+Saliendo de decrease_count (23736).
+Entrando a increase_count (23736).
+Saliendo de increase_count.
+23736 - Avisando a la mara (6).
+Recursos disponibles: 6.
+	23736 - Recurso usado.
+	(23738) Iniciando iteracion #2.
+	(23738) Se consumiran 2 recursos.
+Entrando a decrease_count (23738).
+	23738 - Mutex adquirido, entrando al monitor.
+	23738 - Recursos suficientes disponibles (2/20), consumiendo...
+	23738 - (!) Recurso tomado.
+Saliendo de increase_count.
+Saliendo de decrease_count (23738).
+Recursos disponibles: 18.
+Entrando a increase_count (23738).
+	(23736) Iniciando iteracion #3.
+	(23736) Se consumiran 20 recursos.
+23738 - Avisando a la mara (18).
+Entrando a decrease_count (23736).
+	23738 - Recurso usado.
+	23736 - Mutex adquirido, entrando al monitor.
+	23736 - Recursos suficientes disponibles (20/20), consumiendo...
+	23736 - (!) Recurso tomado.
+Saliendo de increase_count.
+Saliendo de decrease_count (23736).
+Recursos disponibles: 0.
+	(23738) Iniciando iteracion #3.
+	(23738) Se consumiran 5 recursos.
+Entrando a increase_count (23736).
+Entrando a decrease_count (23738).
+	23744 - Mutex adquirido, entrando al monitor.
+	Esperando por 10 recursos - 23744
+	23738 - Mutex adquirido, entrando al monitor.
+	Esperando por 5 recursos - 23738
+23736 - Avisando a la mara (0).
+	23736 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23736) Iniciando iteracion #4.
+	23744 - Recursos suficientes disponibles (10/20), consumiendo...
+	(23736) Se consumiran 18 recursos.
+	23744 - (!) Recurso tomado.
+Entrando a decrease_count (23736).
+	23736 - Mutex adquirido, entrando al monitor.
+	Esperando por 18 recursos - 23736
+Saliendo de decrease_count (23744).
+Entrando a increase_count (23744).
+23744 - Avisando a la mara (10).
+	23744 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23744) Iniciando iteracion #5.
+	(23744) Se consumiran 19 recursos.
+Entrando a decrease_count (23744).
+	23744 - Mutex adquirido, entrando al monitor.
+	23744 - Recursos suficientes disponibles (19/20), consumiendo...
+	23744 - (!) Recurso tomado.
+Saliendo de decrease_count (23744).
+	Esperando por 5 recursos - 23738
+Entrando a increase_count (23744).
+23744 - Avisando a la mara (1).
+	23744 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	23738 - Recursos suficientes disponibles (5/20), consumiendo...
+	23738 - (!) Recurso tomado.
+Saliendo de decrease_count (23738).
+Entrando a increase_count (23738).
+23738 - Avisando a la mara (15).
+	23738 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23738) Iniciando iteracion #4.
+	(23738) Se consumiran 5 recursos.
+Entrando a decrease_count (23738).
+	23738 - Mutex adquirido, entrando al monitor.
+	23738 - Recursos suficientes disponibles (5/20), consumiendo...
+	23738 - (!) Recurso tomado.
+Saliendo de decrease_count (23738).
+Entrando a increase_count (23738).
+23738 - Avisando a la mara (15).
+	23738 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23738) Iniciando iteracion #5.
+	(23738) Se consumiran 16 recursos.
+Entrando a decrease_count (23738).
+	23738 - Mutex adquirido, entrando al monitor.
+	23738 - Recursos suficientes disponibles (16/20), consumiendo...
+	23738 - (!) Recurso tomado.
+Saliendo de decrease_count (23738).
+Entrando a increase_count (23738).
+	Esperando por 18 recursos - 23736
+23738 - Avisando a la mara (4).
+	23738 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	23736 - Recursos suficientes disponibles (18/20), consumiendo...
+	23736 - (!) Recurso tomado.
+Saliendo de decrease_count (23736).
+Entrando a increase_count (23736).
+23736 - Avisando a la mara (2).
+	23736 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+	(23736) Iniciando iteracion #5.
+	(23736) Se consumiran 11 recursos.
+Entrando a decrease_count (23736).
+	23736 - Mutex adquirido, entrando al monitor.
+	23736 - Recursos suficientes disponibles (11/20), consumiendo...
+	23736 - (!) Recurso tomado.
+Saliendo de decrease_count (23736).
+Entrando a increase_count (23736).
+23736 - Avisando a la mara (9).
+	23736 - Recurso usado.
+Saliendo de increase_count.
+Recursos disponibles: 20.
+Adios.
